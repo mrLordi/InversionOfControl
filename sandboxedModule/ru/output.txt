@@ -1,0 +1,5 @@
+./application.js 22:52:50 From application global context
+./application.js 22:52:50 My 2 task
+./application.js 22:52:51 some text
+./application.js 22:52:51 some text
+./application.js 22:52:52 some text
