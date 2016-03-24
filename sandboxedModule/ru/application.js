@@ -17,3 +17,6 @@ setTimeout(function(){
 setInterval(function(){
 	console.log("some text");
 }, 1000);
+
+var str = util.format("My %d %s", 2, "task");
+console.log(str);

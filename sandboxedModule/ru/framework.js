@@ -5,7 +5,8 @@
 
 // Фреймворк может явно зависеть от библиотек через dependency lookup
 var fs = require('fs'),
-    vm = require('vm');
+    vm = require('vm'),
+    util = require('util');
 
 //test string
 
@@ -13,7 +14,8 @@ var fs = require('fs'),
 var context = { module: {},
  				console: console,
  				setTimeout: setTimeout,
- 				setInterval: setInterval };
+ 				setInterval: setInterval,
+ 				util: util };
 context.global = context;
 var sandbox = vm.createContext(context);
 
