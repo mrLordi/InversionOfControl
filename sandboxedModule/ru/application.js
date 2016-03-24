@@ -9,3 +9,11 @@ module.exports = function() {
   // Вывод из контекста экспортируемой функции
   console.log('From application exported function');
 };
+
+setTimeout(function(){
+	console.log("some text");
+}, 1000);
+
+setInterval(function(){
+	console.log("some text");
+}, 1000);
