@@ -7,6 +7,8 @@
 var fs = require('fs'),
     vm = require('vm');
 
+//test string
+
 // Создаем контекст-песочницу, которая станет глобальным контекстом приложения
 var context = { module: {}, console: console };
 context.global = context;
