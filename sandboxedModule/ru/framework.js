@@ -12,7 +12,7 @@ var fs = require('fs'),
 
 // Создаем контекст-песочницу, которая станет глобальным контекстом приложения
 var context = { module: {},
- 				console: console,
+ 				console: clone(console),
  				setTimeout: setTimeout,
  				setInterval: setInterval,
  				util: util };
@@ -20,7 +20,7 @@ context.global = context;
 var sandbox = vm.createContext(context);
 
 // Читаем исходный код приложения из файла
-var fileName = './application.js';
+var fileName = process.argv[2] || './application.js';
 fs.readFile(fileName, function(err, src) {
   // Тут нужно обработать ошибки
   
@@ -31,3 +31,18 @@ fs.readFile(fileName, function(err, src) {
   // Забираем ссылку из sandbox.module.exports, можем ее исполнить,
   // сохранить в кеш, вывести на экран исходный код приложения и т.д.
 });
+
+function clone(obj) {
+	var result = {};
+
+	for (var i in obj) {
+		result[i] = obj[i];
+	}
+
+	return result;
+}
+
+context.console.log = function (message){
+	var time = new Date().toLocaleTimeString();
+	console.log(fileName + " " + time + " " + message);
+}
