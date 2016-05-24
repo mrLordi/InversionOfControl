@@ -32,6 +32,9 @@ fs.readFile(fileName, function(err, src) {
   
   // Забираем ссылку из sandbox.module.exports, можем ее исполнить,
   // сохранить в кеш, вывести на экран исходный код приложения и т.д.
+  for (var element in sandbox.module.exports) {
+  	console.log(element + " : " + typeof sandbox.module.exports[element]);
+  }
 });
 
 function clone(obj) {

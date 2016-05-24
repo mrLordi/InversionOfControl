@@ -12,6 +12,10 @@ module.exports = function() {
   console.log('From application exported function');
 };
 
+module.exports.func = function(args) {
+  console.log("[seventh task] function with argument: " + args);
+};
+
 setTimeout(function(){
 	console.log("some text");
 }, 1000);
