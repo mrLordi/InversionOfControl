@@ -15,7 +15,9 @@ var context = { module: {},
  				console: clone(console),
  				setTimeout: setTimeout,
  				setInterval: setInterval,
- 				util: util };
+ 				util: util,
+ 				require: sixthTask 
+ 			};
 context.global = context;
 var sandbox = vm.createContext(context);
 
@@ -46,5 +48,11 @@ context.console.log = function (message){
 	var time = new Date().toLocaleTimeString();
 	console.log(fileName + " " + time + " " + message);
 	var out = fs.createWriteStream('output.txt', {flags: 'a+'});
-	out.write(fileName + " " + time + " " +message + '\n');
+	out.write(fileName + " " + time + " " + message + '\n');
+}
+
+function sixthTask(module) {
+	var time = new Date().toLocaleTimeString();
+	console.log(time + " " + module);
+	return require(module);
 }
