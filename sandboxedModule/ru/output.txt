@@ -52,3 +52,21 @@ application.js 23:20:43 some text
 ./application.js 23:59:03 some text
 ./application.js 23:59:04 some text
 ./application.js 23:59:05 some text
+./application.js 00:15:53 From application global context
+./application.js 00:15:53 My 2 task
+./application.js 00:15:54 some text
+./application.js 00:15:54 some text
+./application.js 00:15:55 some text
+./application.js 00:22:47 From application global context
+./application.js 00:22:47 My 2 task
+./application.js 00:22:48 some text
+./application.js 00:22:48 some text
+./application.js 00:22:49 some text
+./application.js 00:22:50 some text
+./application.js 00:22:51 some text
+./application.js 00:22:52 some text
+./application.js 00:22:53 some text
+./application.js 00:22:54 some text
+./application.js 00:22:55 some text
+./application.js 00:22:56 some text
+./application.js 00:22:57 some text

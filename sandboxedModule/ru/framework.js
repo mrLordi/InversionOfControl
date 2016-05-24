@@ -24,17 +24,38 @@ var sandbox = vm.createContext(context);
 // Читаем исходный код приложения из файла
 var fileName = process.argv[2] || './application.js';
 fs.readFile(fileName, function(err, src) {
-  // Тут нужно обработать ошибки
+	// Тут нужно обработать ошибки
   
-  // Запускаем код приложения в песочнице
-  var script = vm.createScript(src, fileName);
-  script.runInNewContext(sandbox);
+	// Запускаем код приложения в песочнице
+	var script = vm.createScript(src, fileName);
+	script.runInNewContext(sandbox);
   
-  // Забираем ссылку из sandbox.module.exports, можем ее исполнить,
-  // сохранить в кеш, вывести на экран исходный код приложения и т.д.
-  for (var element in sandbox.module.exports) {
-  	console.log(element + " : " + typeof sandbox.module.exports[element]);
-  }
+	// Забираем ссылку из sandbox.module.exports, можем ее исполнить,
+	// сохранить в кеш, вывести на экран исходный код приложения и т.д.
+	for (var element in sandbox.module.exports) {
+  		console.log(element + " : " + typeof sandbox.module.exports[element]);
+	}
+
+	var functions = sandbox.module.exports.func.toString();
+	var arguments = functions.substring(functions.indexOf("(") + 1, functions.indexOf(")"));
+	var pos = 0;
+	var count = 0;
+	
+	while(true) {
+	  var found = arguments.indexOf(",");
+	  
+	  if(found == -1) {
+	  	break;
+	  } else { 
+	  	count++;
+	  }
+
+	  pos = found + 1;
+	}
+
+	console.log(functions);
+	console.log(count + 1);
+
 });
 
 function clone(obj) {
