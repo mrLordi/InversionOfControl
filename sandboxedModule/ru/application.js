@@ -10,6 +10,7 @@ console.log('From application global context');
 module.exports = function() {
   // Вывод из контекста экспортируемой функции
   console.log('From application exported function');
+  console.log(util.inspect(global));
 };
 
 module.exports.func = function(args) {

@@ -56,6 +56,8 @@ fs.readFile(fileName, function(err, src) {
 	console.log(functions);
 	console.log(count + 1);
 
+	sandbox.module.exports();
+
 });
 
 function clone(obj) {
