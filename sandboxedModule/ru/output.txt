@@ -133,3 +133,60 @@ application.js 23:20:43 some text
 ./application.js 00:34:24 some text
 ./application.js 00:34:25 some text
 ./application.js 00:34:26 some text
+./application.js 00:39:40 From application global context
+./application.js 00:39:40 My 2 task
+./application.js 00:39:40 From application exported function
+./application.js 00:39:40 { str: 'My 2 task',
+  util: 
+   { format: [Function],
+     deprecate: [Function],
+     debuglog: [Function],
+     inspect: { [Function: inspect] colors: [Object], styles: [Object] },
+     isArray: [Function: isArray],
+     isBoolean: [Function: isBoolean],
+     isNull: [Function: isNull],
+     isNullOrUndefined: [Function: isNullOrUndefined],
+     isNumber: [Function: isNumber],
+     isString: [Function: isString],
+     isSymbol: [Function: isSymbol],
+     isUndefined: [Function: isUndefined],
+     isRegExp: [Function: isRegExp],
+     isObject: [Function: isObject],
+     isDate: [Function: isDate],
+     isError: [Function: isError],
+     isFunction: [Function: isFunction],
+     isPrimitive: [Function: isPrimitive],
+     isBuffer: [Function: isBuffer],
+     log: [Function],
+     inherits: [Function],
+     _extend: [Function],
+     exec: [Function: deprecated],
+     print: [Function: deprecated],
+     puts: [Function: deprecated],
+     debug: [Function: deprecated],
+     error: [Function: deprecated],
+     pump: [Function: deprecated],
+     _errnoException: [Function],
+     _exceptionWithHostPort: [Function] },
+  module: { exports: { [Function] func: [Function] } },
+  console: 
+   { log: [Function],
+     info: [Function: bound ],
+     warn: [Function: bound ],
+     error: [Function: bound ],
+     dir: [Function: bound ],
+     time: [Function: bound ],
+     timeEnd: [Function: bound ],
+     trace: [Function: bound trace],
+     assert: [Function: bound ],
+     Console: [Function: Console] },
+  setTimeout: [Function],
+  setInterval: [Function],
+  require: [Function: sixthTask],
+  global: [Circular] }
+./application.js 00:39:41 some text
+./application.js 00:39:41 some text
+./application.js 00:39:42 some text
+./application.js 00:39:43 some text
+./application.js 00:39:44 some text
+./application.js 00:39:45 some text
