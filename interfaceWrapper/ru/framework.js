@@ -35,6 +35,16 @@ function cloneInterface(anInterface) {
   return clone;
 }
 
+function wrapFunction(fnName, fn) {
+  return function wrapper() {
+    var args = [];
+    Array.prototype.push.apply(args, arguments);
+    console.log('Call: ' + fnName);
+    console.dir(args);
+    return fn.apply(undefined, args);
+  }
+}
+
 // Преобразовываем хеш в контекст
 context.global = context;
 var sandbox = vm.createContext(context);
