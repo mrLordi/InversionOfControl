@@ -8,7 +8,7 @@ var context = {
   module: {},
   console: console,
   // Помещаем ссылку на fs API в песочницу
-  fs: fs,
+  fs: cloneInterface(fs),
   // Оборачиваем функцию setTimeout в песочнице
   /*setTimeout: function(callback, timeout) {
     // Добавляем поведение при вызове setTimeout
@@ -26,6 +26,14 @@ var context = {
     }, timeout);
   }*/
 };
+
+function cloneInterface(anInterface) {
+  var clone = {};
+  for (var key in anInterface) {
+    clone[key] = anInterface[key];
+  }
+  return clone;
+}
 
 // Преобразовываем хеш в контекст
 context.global = context;
