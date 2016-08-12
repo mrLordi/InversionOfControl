@@ -18,9 +18,11 @@ var context = { module: {},
  				util: util,
  				require: sixthTask 
  			};
+
 context.global = context;
 var sandbox = vm.createContext(context);
 
+//task 10
 var keys = {};
 for (var element in sandbox) {
 	keys[element] = sandbox[element];
@@ -30,36 +32,37 @@ for (var element in sandbox) {
 var fileName = process.argv[2] || './application.js';
 fs.readFile(fileName, function(err, src) {
 	// Тут нужно обработать ошибки
-  
+	if (err) {
+		return console.log(err);
+	}
+	
 	// Запускаем код приложения в песочнице
 	var script = vm.createScript(src, fileName);
 	script.runInNewContext(sandbox);
+
+	sandbox.module.exports();
 
 	var newKeys = {};
   	for (var element in sandbox) {
 		newKeys[element] = sandbox[element];
   	}
-
-  	console.log("New keys:");
-  	for (var element in newKeys) {
-		if (!(element in keys)) {
-			console.log(element);
-		}
-  	}
-  
+	
 	// Забираем ссылку из sandbox.module.exports, можем ее исполнить,
 	// сохранить в кеш, вывести на экран исходный код приложения и т.д.
+	console.log("===========================\n");
 	for (var element in sandbox.module.exports) {
-  		console.log(element + " : " + typeof sandbox.module.exports[element]);
+  		console.log("Seventh task: " + element + " - typeof(" + typeof sandbox.module.exports[element] + ")");
 	}
+	console.log("===========================\n");
 
 	var functions = sandbox.module.exports.func.toString();
 	var arguments = functions.substring(functions.indexOf("(") + 1, functions.indexOf(")"));
+	
 	var pos = 0;
 	var count = 0;
 	
 	while(true) {
-	  var found = arguments.indexOf(",");
+	  var found = arguments.indexOf(",", pos);
 	  
 	  if(found == -1) {
 	  	break;
@@ -69,11 +72,19 @@ fs.readFile(fileName, function(err, src) {
 
 	  pos = found + 1;
 	}
+	
+	count = count === 0 ? count : count + 1;
 
-	console.log(functions);
-	console.log(count + 1);
+	console.log("Eighth task: " + functions + "\n\t" + "Number of arguments: " + count);
+	console.log("===========================\n");
 
-	sandbox.module.exports();
+	console.log("Tenth task:\n\tNew keys:");
+	for (var element in newKeys) {
+		if (!(element in keys)) {
+			console.log("\t--" + element);
+		}
+	}
+	console.log("===========================\n");
 
 });
 
@@ -87,7 +98,7 @@ function clone(obj) {
 	return result;
 }
 
-context.console.log = function (message){
+context.console.log = function(message){
 	var time = new Date().toLocaleTimeString();
 	console.log(fileName + " " + time + " " + message);
 	var out = fs.createWriteStream('output.txt', {flags: 'a+'});

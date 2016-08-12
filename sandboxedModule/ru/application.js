@@ -3,27 +3,27 @@
 // кусочком фреймворка. Читайте README.md в нем задания.
 
 
-util = require('util');
+fs = require('fs');
 // Вывод из глобального контекста модуля
 console.log('From application global context');
 
 module.exports = function() {
   // Вывод из контекста экспортируемой функции
   console.log('From application exported function');
-  console.log(util.inspect(global));
+  console.log("Nineth task: " + util.inspect(global));
 };
 
-module.exports.func = function(args) {
-  console.log("[seventh task] function with argument: " + args);
+module.exports.func = function(args, none) {
+  console.log("[eighth task] function with argument: " + args);
 };
+
+var str = util.format("My %d%s", 2, "nd task");
+console.log(str);
 
 setTimeout(function(){
-	console.log("some text");
+	console.log("some text from setTimeout");
 }, 1000);
 
 setInterval(function(){
-	console.log("some text");
+	console.log("some text from setInterval");
 }, 1000);
-
-var str = util.format("My %d %s", 2, "task");
-console.log(str);
