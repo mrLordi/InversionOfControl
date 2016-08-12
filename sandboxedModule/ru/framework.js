@@ -100,13 +100,13 @@ function clone(obj) {
 
 context.console.log = function(message){
 	var time = new Date().toLocaleTimeString();
-	console.log(fileName + " " + time + " " + message);
+	console.log(fileName + ": " + time + ": " + message);
 	var out = fs.createWriteStream('output.txt', {flags: 'a+'});
 	out.write(fileName + " " + time + " " + message + '\n');
 }
 
 function sixthTask(module) {
 	var time = new Date().toLocaleTimeString();
-	console.log(time + " " + module);
+	console.log(time + ": " + module);
 	return require(module);
 }
