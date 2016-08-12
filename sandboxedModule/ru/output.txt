@@ -1,84 +1,151 @@
-./application.js 22:52:50 From application global context
-./application.js 22:52:50 My 2 task
-./application.js 22:52:51 some text
-./application.js 22:52:51 some text
-./application.js 22:52:52 some text
-./application.js 23:01:13 From application global context
-./application.js 23:01:13 My 2 task
-./application.js 23:01:14 some text
-./application.js 23:01:14 some text
-./application.js 23:01:15 some text
-./application.js 23:01:16 some text
-./application.js 23:01:17 some text
-./application.js 23:01:18 some text
-./application.js 23:01:19 some text
-./application.js 23:01:20 some text
-./application.js 23:01:21 some text
-./application.js 23:01:22 some text
-./application.js 23:01:23 some text
-./application.js 23:01:24 some text
-./application.js 23:01:25 some text
-./application.js 23:01:26 some text
-./application.js 23:01:27 some text
-./application.js 23:01:28 some text
-./application.js 23:01:29 some text
-./application.js 23:01:30 some text
-./application.js 23:01:31 some text
-./application.js 23:02:51 From application global context
-./application.js 23:02:51 My 2 task
-./application.js 23:02:52 some text
-./application.js 23:02:52 some text
-./application.js 23:02:53 some text
-application.js 23:20:39 From application global context
-application.js 23:20:39 My 2 task
-application.js 23:20:40 some text
-application.js 23:20:40 some text
-application.js 23:20:41 some text
-application.js 23:20:42 some text
-application.js 23:20:43 some text
-./application.js 23:57:50 From application global context
-./application.js 23:57:50 My 2 task
-./application.js 23:57:51 some text
-./application.js 23:57:51 some text
-./application.js 23:57:52 some text
-./application.js 23:57:53 some text
-./application.js 23:58:58 From application global context
-./application.js 23:58:58 My 2 task
-./application.js 23:58:59 some text
-./application.js 23:58:59 some text
-./application.js 23:59:00 some text
-./application.js 23:59:01 some text
-./application.js 23:59:02 some text
-./application.js 23:59:03 some text
-./application.js 23:59:04 some text
-./application.js 23:59:05 some text
-./application.js 00:15:53 From application global context
-./application.js 00:15:53 My 2 task
-./application.js 00:15:54 some text
-./application.js 00:15:54 some text
-./application.js 00:15:55 some text
-./application.js 00:22:47 From application global context
-./application.js 00:22:47 My 2 task
-./application.js 00:22:48 some text
-./application.js 00:22:48 some text
-./application.js 00:22:49 some text
-./application.js 00:22:50 some text
-./application.js 00:22:51 some text
-./application.js 00:22:52 some text
-./application.js 00:22:53 some text
-./application.js 00:22:54 some text
-./application.js 00:22:55 some text
-./application.js 00:22:56 some text
-./application.js 00:22:57 some text
-./application.js 00:33:03 From application global context
-./application.js 00:33:03 My 2 task
-./application.js 00:33:03 From application exported function
-./application.js 00:33:04 some text
-./application.js 00:33:04 some text
-./application.js 00:34:20 From application global context
-./application.js 00:34:20 My 2 task
-./application.js 00:34:20 From application exported function
-./application.js 00:34:20 { str: 'My 2 task',
+./application.js 13:46:39 From application global context
+./application.js 13:46:39 My 2 task
+./application.js 13:46:39 From application exported function
+./application.js 13:46:40 some text from setInterval
+./application.js 13:46:40 some text from setTimeout
+./application.js 13:46:41 some text from setInterval
+./application.js 13:46:42 some text from setInterval
+./application.js 13:46:43 some text from setInterval
+./application.js 13:46:44 some text from setInterval
+./application.js 13:48:31 From application global context
+./application.js 13:48:31 My 2 task
+./application.js 13:48:31 From application exported function
+./application.js 13:48:32 some text from setInterval
+./application.js 13:48:32 some text from setTimeout
+./application.js 13:48:33 some text from setInterval
+./application.js 13:48:34 some text from setInterval
+./application.js 13:48:35 some text from setInterval
+./application.js 13:53:38 From application global context
+./application.js 13:53:38 My 2 task
+./application.js 13:53:38 From application exported function
+./application.js 13:53:39 some text from setTimeout
+./application.js 13:53:39 some text from setInterval
+./application.js 13:53:40 some text from setInterval
+./application.js 13:53:41 some text from setInterval
+./application.js 13:53:42 some text from setInterval
+./application.js 13:53:56 From application global context
+./application.js 13:53:56 My 2 task
+./application.js 13:53:56 From application exported function
+./application.js 13:53:57 some text from setTimeout
+./application.js 13:53:57 some text from setInterval
+./application.js 13:54:46 From application global context
+./application.js 13:54:46 My 2 task
+./application.js 13:54:46 From application exported function
+./application.js 13:54:47 some text from setInterval
+./application.js 13:54:47 some text from setTimeout
+./application.js 13:59:13 From application global context
+./application.js 13:59:13 My 2 task
+./application.js 13:59:13 From application exported function
+./application.js 13:59:14 some text from setInterval
+./application.js 13:59:14 some text from setTimeout
+./application.js 14:05:04 From application global context
+./application.js 14:05:04 My 2 task
+./application.js 14:05:04 From application exported function
+./application.js 14:05:05 some text from setInterval
+./application.js 14:05:05 some text from setTimeout
+./application.js 14:05:06 some text from setInterval
+./application.js 14:06:55 From application global context
+./application.js 14:06:55 My 2 task
+./application.js 14:06:55 From application exported function
+./application.js 14:06:56 some text from setInterval
+./application.js 14:06:56 some text from setTimeout
+./application.js 14:06:57 some text from setInterval
+./application.js 14:07:42 From application global context
+./application.js 14:07:42 My 2 task
+./application.js 14:07:42 From application exported function
+./application.js 14:07:42 { str: 'My 2 task',
+  fs: 
+   { Stats: [Function],
+     F_OK: 0,
+     R_OK: 4,
+     W_OK: 2,
+     X_OK: 1,
+     access: [Function],
+     accessSync: [Function],
+     exists: [Function],
+     existsSync: [Function],
+     readFile: [Function],
+     readFileSync: [Function],
+     close: [Function],
+     closeSync: [Function],
+     open: [Function],
+     openSync: [Function],
+     read: [Function],
+     readSync: [Function],
+     write: [Function],
+     writeSync: [Function],
+     rename: [Function],
+     renameSync: [Function],
+     truncate: [Function],
+     truncateSync: [Function],
+     ftruncate: [Function],
+     ftruncateSync: [Function],
+     rmdir: [Function],
+     rmdirSync: [Function],
+     fdatasync: [Function],
+     fdatasyncSync: [Function],
+     fsync: [Function],
+     fsyncSync: [Function],
+     mkdir: [Function],
+     mkdirSync: [Function],
+     readdir: [Function],
+     readdirSync: [Function],
+     fstat: [Function],
+     lstat: [Function],
+     stat: [Function],
+     fstatSync: [Function],
+     lstatSync: [Function],
+     statSync: [Function],
+     readlink: [Function],
+     readlinkSync: [Function],
+     symlink: [Function],
+     symlinkSync: [Function],
+     link: [Function],
+     linkSync: [Function],
+     unlink: [Function],
+     unlinkSync: [Function],
+     fchmod: [Function],
+     fchmodSync: [Function],
+     chmod: [Function],
+     chmodSync: [Function],
+     fchown: [Function],
+     fchownSync: [Function],
+     chown: [Function],
+     chownSync: [Function],
+     _toUnixTimestamp: [Function: toUnixTimestamp],
+     utimes: [Function],
+     utimesSync: [Function],
+     futimes: [Function],
+     futimesSync: [Function],
+     writeFile: [Function],
+     writeFileSync: [Function],
+     appendFile: [Function],
+     appendFileSync: [Function],
+     watch: [Function],
+     watchFile: [Function],
+     unwatchFile: [Function],
+     realpathSync: [Function: realpathSync],
+     realpath: [Function: realpath],
+     createReadStream: [Function],
+     ReadStream: { [Function: ReadStream] super_: [Object] },
+     FileReadStream: { [Function: ReadStream] super_: [Object] },
+     createWriteStream: [Function],
+     WriteStream: { [Function: WriteStream] super_: [Object] },
+     FileWriteStream: { [Function: WriteStream] super_: [Object] } },
+  module: { exports: { [Function] func: [Function] } },
+  console: 
+   { log: [Function],
+     info: [Function: bound ],
+     warn: [Function: bound ],
+     error: [Function: bound ],
+     dir: [Function: bound ],
+     time: [Function: bound ],
+     timeEnd: [Function: bound ],
+     trace: [Function: bound trace],
+     assert: [Function: bound ],
+     Console: [Function: Console] },
+  setTimeout: [Function],
+  setInterval: [Function],
   util: 
    { format: [Function],
      deprecate: [Function],
@@ -102,6 +169,7 @@ application.js 23:20:43 some text
      log: [Function],
      inherits: [Function],
      _extend: [Function],
+     p: [Function: deprecated],
      exec: [Function: deprecated],
      print: [Function: deprecated],
      puts: [Function: deprecated],
@@ -110,6 +178,93 @@ application.js 23:20:43 some text
      pump: [Function: deprecated],
      _errnoException: [Function],
      _exceptionWithHostPort: [Function] },
+  require: [Function: sixthTask],
+  global: [Circular] }
+./application.js 14:07:43 some text from setInterval
+./application.js 14:07:43 some text from setTimeout
+./application.js 14:07:44 some text from setInterval
+./application.js 14:09:44 From application global context
+./application.js 14:09:44 My 2 nd task
+./application.js 14:09:44 From application exported function
+./application.js 14:09:44 Nineth task: { str: 'My 2 nd task',
+  fs: 
+   { Stats: [Function],
+     F_OK: 0,
+     R_OK: 4,
+     W_OK: 2,
+     X_OK: 1,
+     access: [Function],
+     accessSync: [Function],
+     exists: [Function],
+     existsSync: [Function],
+     readFile: [Function],
+     readFileSync: [Function],
+     close: [Function],
+     closeSync: [Function],
+     open: [Function],
+     openSync: [Function],
+     read: [Function],
+     readSync: [Function],
+     write: [Function],
+     writeSync: [Function],
+     rename: [Function],
+     renameSync: [Function],
+     truncate: [Function],
+     truncateSync: [Function],
+     ftruncate: [Function],
+     ftruncateSync: [Function],
+     rmdir: [Function],
+     rmdirSync: [Function],
+     fdatasync: [Function],
+     fdatasyncSync: [Function],
+     fsync: [Function],
+     fsyncSync: [Function],
+     mkdir: [Function],
+     mkdirSync: [Function],
+     readdir: [Function],
+     readdirSync: [Function],
+     fstat: [Function],
+     lstat: [Function],
+     stat: [Function],
+     fstatSync: [Function],
+     lstatSync: [Function],
+     statSync: [Function],
+     readlink: [Function],
+     readlinkSync: [Function],
+     symlink: [Function],
+     symlinkSync: [Function],
+     link: [Function],
+     linkSync: [Function],
+     unlink: [Function],
+     unlinkSync: [Function],
+     fchmod: [Function],
+     fchmodSync: [Function],
+     chmod: [Function],
+     chmodSync: [Function],
+     fchown: [Function],
+     fchownSync: [Function],
+     chown: [Function],
+     chownSync: [Function],
+     _toUnixTimestamp: [Function: toUnixTimestamp],
+     utimes: [Function],
+     utimesSync: [Function],
+     futimes: [Function],
+     futimesSync: [Function],
+     writeFile: [Function],
+     writeFileSync: [Function],
+     appendFile: [Function],
+     appendFileSync: [Function],
+     watch: [Function],
+     watchFile: [Function],
+     unwatchFile: [Function],
+     realpathSync: [Function: realpathSync],
+     realpath: [Function: realpath],
+     createReadStream: [Function],
+     ReadStream: { [Function: ReadStream] super_: [Object] },
+     FileReadStream: { [Function: ReadStream] super_: [Object] },
+     createWriteStream: [Function],
+     WriteStream: { [Function: WriteStream] super_: [Object] },
+     FileWriteStream: { [Function: WriteStream] super_: [Object] } },
   module: { exports: { [Function] func: [Function] } },
   console: 
    { log: [Function],
@@ -124,19 +279,6 @@ application.js 23:20:43 some text
      Console: [Function: Console] },
   setTimeout: [Function],
   setInterval: [Function],
-  require: [Function: sixthTask],
-  global: [Circular] }
-./application.js 00:34:21 some text
-./application.js 00:34:21 some text
-./application.js 00:34:22 some text
-./application.js 00:34:23 some text
-./application.js 00:34:24 some text
-./application.js 00:34:25 some text
-./application.js 00:34:26 some text
-./application.js 00:39:40 From application global context
-./application.js 00:39:40 My 2 task
-./application.js 00:39:40 From application exported function
-./application.js 00:39:40 { str: 'My 2 task',
   util: 
    { format: [Function],
      deprecate: [Function],
@@ -160,6 +302,7 @@ application.js 23:20:43 some text
      log: [Function],
      inherits: [Function],
      _extend: [Function],
+     p: [Function: deprecated],
      exec: [Function: deprecated],
      print: [Function: deprecated],
      puts: [Function: deprecated],
@@ -168,6 +311,106 @@ application.js 23:20:43 some text
      pump: [Function: deprecated],
      _errnoException: [Function],
      _exceptionWithHostPort: [Function] },
+  require: [Function: sixthTask],
+  global: [Circular] }
+./application.js 14:09:45 some text from setInterval
+./application.js 14:09:45 some text from setTimeout
+./application.js 14:09:56 From application global context
+./application.js 14:09:56 My 2 nd task
+./application.js 14:09:56 From application exported function
+./application.js 14:12:01 From application global context
+./application.js 14:12:01 My 2 nd task
+./application.js 14:12:01 From application exported function
+./application.js 14:12:02 some text from setTimeout
+./application.js 14:12:02 some text from setInterval
+./application.js 14:12:03 some text from setInterval
+./application.js 14:12:31 From application global context
+./application.js 14:12:31 My 2 nd task
+./application.js 14:12:31 From application exported function
+./application.js 14:12:32 some text from setInterval
+./application.js 14:12:32 some text from setTimeout
+./application.js 14:13:08 From application global context
+./application.js 14:13:08 My 2nd task
+./application.js 14:13:08 From application exported function
+./application.js 14:13:08 Nineth task: { str: 'My 2nd task',
+  fs: 
+   { Stats: [Function],
+     F_OK: 0,
+     R_OK: 4,
+     W_OK: 2,
+     X_OK: 1,
+     access: [Function],
+     accessSync: [Function],
+     exists: [Function],
+     existsSync: [Function],
+     readFile: [Function],
+     readFileSync: [Function],
+     close: [Function],
+     closeSync: [Function],
+     open: [Function],
+     openSync: [Function],
+     read: [Function],
+     readSync: [Function],
+     write: [Function],
+     writeSync: [Function],
+     rename: [Function],
+     renameSync: [Function],
+     truncate: [Function],
+     truncateSync: [Function],
+     ftruncate: [Function],
+     ftruncateSync: [Function],
+     rmdir: [Function],
+     rmdirSync: [Function],
+     fdatasync: [Function],
+     fdatasyncSync: [Function],
+     fsync: [Function],
+     fsyncSync: [Function],
+     mkdir: [Function],
+     mkdirSync: [Function],
+     readdir: [Function],
+     readdirSync: [Function],
+     fstat: [Function],
+     lstat: [Function],
+     stat: [Function],
+     fstatSync: [Function],
+     lstatSync: [Function],
+     statSync: [Function],
+     readlink: [Function],
+     readlinkSync: [Function],
+     symlink: [Function],
+     symlinkSync: [Function],
+     link: [Function],
+     linkSync: [Function],
+     unlink: [Function],
+     unlinkSync: [Function],
+     fchmod: [Function],
+     fchmodSync: [Function],
+     chmod: [Function],
+     chmodSync: [Function],
+     fchown: [Function],
+     fchownSync: [Function],
+     chown: [Function],
+     chownSync: [Function],
+     _toUnixTimestamp: [Function: toUnixTimestamp],
+     utimes: [Function],
+     utimesSync: [Function],
+     futimes: [Function],
+     futimesSync: [Function],
+     writeFile: [Function],
+     writeFileSync: [Function],
+     appendFile: [Function],
+     appendFileSync: [Function],
+     watch: [Function],
+     watchFile: [Function],
+     unwatchFile: [Function],
+     realpathSync: [Function: realpathSync],
+     realpath: [Function: realpath],
+     createReadStream: [Function],
+     ReadStream: { [Function: ReadStream] super_: [Object] },
+     FileReadStream: { [Function: ReadStream] super_: [Object] },
+     createWriteStream: [Function],
+     WriteStream: { [Function: WriteStream] super_: [Object] },
+     FileWriteStream: { [Function: WriteStream] super_: [Object] } },
   module: { exports: { [Function] func: [Function] } },
   console: 
    { log: [Function],
@@ -182,11 +425,173 @@ application.js 23:20:43 some text
      Console: [Function: Console] },
   setTimeout: [Function],
   setInterval: [Function],
+  util: 
+   { format: [Function],
+     deprecate: [Function],
+     debuglog: [Function],
+     inspect: { [Function: inspect] colors: [Object], styles: [Object] },
+     isArray: [Function: isArray],
+     isBoolean: [Function: isBoolean],
+     isNull: [Function: isNull],
+     isNullOrUndefined: [Function: isNullOrUndefined],
+     isNumber: [Function: isNumber],
+     isString: [Function: isString],
+     isSymbol: [Function: isSymbol],
+     isUndefined: [Function: isUndefined],
+     isRegExp: [Function: isRegExp],
+     isObject: [Function: isObject],
+     isDate: [Function: isDate],
+     isError: [Function: isError],
+     isFunction: [Function: isFunction],
+     isPrimitive: [Function: isPrimitive],
+     isBuffer: [Function: isBuffer],
+     log: [Function],
+     inherits: [Function],
+     _extend: [Function],
+     p: [Function: deprecated],
+     exec: [Function: deprecated],
+     print: [Function: deprecated],
+     puts: [Function: deprecated],
+     debug: [Function: deprecated],
+     error: [Function: deprecated],
+     pump: [Function: deprecated],
+     _errnoException: [Function],
+     _exceptionWithHostPort: [Function] },
   require: [Function: sixthTask],
   global: [Circular] }
-./application.js 00:39:41 some text
-./application.js 00:39:41 some text
-./application.js 00:39:42 some text
-./application.js 00:39:43 some text
-./application.js 00:39:44 some text
-./application.js 00:39:45 some text
+./application.js 14:13:09 some text from setInterval
+./application.js 14:13:09 some text from setTimeout
+./application.js 14:13:10 some text from setInterval
+./application.js 14:14:55 From application global context
+./application.js 14:14:55 My 2nd task
+./application.js 14:14:55 From application exported function
+./application.js 14:14:55 Nineth task: { str: 'My 2nd task',
+  fs: 
+   { Stats: [Function],
+     F_OK: 0,
+     R_OK: 4,
+     W_OK: 2,
+     X_OK: 1,
+     access: [Function],
+     accessSync: [Function],
+     exists: [Function],
+     existsSync: [Function],
+     readFile: [Function],
+     readFileSync: [Function],
+     close: [Function],
+     closeSync: [Function],
+     open: [Function],
+     openSync: [Function],
+     read: [Function],
+     readSync: [Function],
+     write: [Function],
+     writeSync: [Function],
+     rename: [Function],
+     renameSync: [Function],
+     truncate: [Function],
+     truncateSync: [Function],
+     ftruncate: [Function],
+     ftruncateSync: [Function],
+     rmdir: [Function],
+     rmdirSync: [Function],
+     fdatasync: [Function],
+     fdatasyncSync: [Function],
+     fsync: [Function],
+     fsyncSync: [Function],
+     mkdir: [Function],
+     mkdirSync: [Function],
+     readdir: [Function],
+     readdirSync: [Function],
+     fstat: [Function],
+     lstat: [Function],
+     stat: [Function],
+     fstatSync: [Function],
+     lstatSync: [Function],
+     statSync: [Function],
+     readlink: [Function],
+     readlinkSync: [Function],
+     symlink: [Function],
+     symlinkSync: [Function],
+     link: [Function],
+     linkSync: [Function],
+     unlink: [Function],
+     unlinkSync: [Function],
+     fchmod: [Function],
+     fchmodSync: [Function],
+     chmod: [Function],
+     chmodSync: [Function],
+     fchown: [Function],
+     fchownSync: [Function],
+     chown: [Function],
+     chownSync: [Function],
+     _toUnixTimestamp: [Function: toUnixTimestamp],
+     utimes: [Function],
+     utimesSync: [Function],
+     futimes: [Function],
+     futimesSync: [Function],
+     writeFile: [Function],
+     writeFileSync: [Function],
+     appendFile: [Function],
+     appendFileSync: [Function],
+     watch: [Function],
+     watchFile: [Function],
+     unwatchFile: [Function],
+     realpathSync: [Function: realpathSync],
+     realpath: [Function: realpath],
+     createReadStream: [Function],
+     ReadStream: { [Function: ReadStream] super_: [Object] },
+     FileReadStream: { [Function: ReadStream] super_: [Object] },
+     createWriteStream: [Function],
+     WriteStream: { [Function: WriteStream] super_: [Object] },
+     FileWriteStream: { [Function: WriteStream] super_: [Object] } },
+  module: { exports: { [Function] func: [Function] } },
+  console: 
+   { log: [Function],
+     info: [Function: bound ],
+     warn: [Function: bound ],
+     error: [Function: bound ],
+     dir: [Function: bound ],
+     time: [Function: bound ],
+     timeEnd: [Function: bound ],
+     trace: [Function: bound trace],
+     assert: [Function: bound ],
+     Console: [Function: Console] },
+  setTimeout: [Function],
+  setInterval: [Function],
+  util: 
+   { format: [Function],
+     deprecate: [Function],
+     debuglog: [Function],
+     inspect: { [Function: inspect] colors: [Object], styles: [Object] },
+     isArray: [Function: isArray],
+     isBoolean: [Function: isBoolean],
+     isNull: [Function: isNull],
+     isNullOrUndefined: [Function: isNullOrUndefined],
+     isNumber: [Function: isNumber],
+     isString: [Function: isString],
+     isSymbol: [Function: isSymbol],
+     isUndefined: [Function: isUndefined],
+     isRegExp: [Function: isRegExp],
+     isObject: [Function: isObject],
+     isDate: [Function: isDate],
+     isError: [Function: isError],
+     isFunction: [Function: isFunction],
+     isPrimitive: [Function: isPrimitive],
+     isBuffer: [Function: isBuffer],
+     log: [Function],
+     inherits: [Function],
+     _extend: [Function],
+     p: [Function: deprecated],
+     exec: [Function: deprecated],
+     print: [Function: deprecated],
+     puts: [Function: deprecated],
+     debug: [Function: deprecated],
+     error: [Function: deprecated],
+     pump: [Function: deprecated],
+     _errnoException: [Function],
+     _exceptionWithHostPort: [Function] },
+  require: [Function: sixthTask],
+  global: [Circular] }
+./application.js 14:14:56 some text from setInterval
+./application.js 14:14:56 some text from setTimeout
+./application.js 14:14:57 some text from setInterval
