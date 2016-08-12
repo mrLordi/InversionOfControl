@@ -18,6 +18,7 @@ var sandbox = vm.createContext(context);
 var countCallFunction = 0;
 var coutCallBack = 0;
 var avgTime = 0;
+var avgTimeC = 0;
 
 function cloneInterface(anInterface) {
 	var clone = {};
@@ -37,9 +38,12 @@ function wrapFunction(fnName, fn) {
       //console.dir(args);
 
       if(typeof args[args.length - 1] === 'function' ) {
-         args[args.length - 1] = wrapFunction(fnName + ' : callback',
-         	args[args.length - 1]);
+      	 var startC = process.hrtime();
+         args[args.length - 1] = wrapFunction(fnName + ' : callback', args[args.length - 1]);
+         var endC = process.hrtime(startC);
+      	 var timeSC = endC[0] + (endC[1] / 1000000000);
          coutCallBack++;
+          avgTimeC=((coutCallBack - 1)*avgTimeC + timeSC)/coutCallBack; 
       }
 
       var start = process.hrtime();
@@ -66,6 +70,7 @@ function printInformation(){
 	console.log('Calls: ' + countCallFunction);
 	console.log('CallBack: ' + coutCallBack);
     console.log('Time: ' + avgTime + ' s');
+    console.log('Time CallBack: ' + avgTimeC + ' s');
     console.log('---------------------------');
 }
 

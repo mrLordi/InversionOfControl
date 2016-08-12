@@ -13,7 +13,7 @@ module.exports = function() {
   console.log("Nineth task: " + util.inspect(global));
 };
 
-module.exports.func = function(args, none) {
+module.exports.func = function(args) {
   console.log("[eighth task] function with argument: " + args);
 };
 
